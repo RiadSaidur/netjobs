@@ -1,0 +1,16 @@
+.Header {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Header .logo {
+  font-family: 'Miriam Libre', sans-serif;
+  font-size: 1.5rem;
+}
+
+.Header .logo span:last-child {
+  color: #F76B8A;
+  font-weight: 700;
+}

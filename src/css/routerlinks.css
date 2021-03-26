@@ -1,0 +1,8 @@
+.nav ul {
+  display: flex;
+}
+
+.nav a, .nav li {
+  font-size: 1.125rem;
+  padding: .5rem 1rem;
+}
