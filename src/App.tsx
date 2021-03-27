@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom'
 
-import Header from './components/Header';
+import './css/app.css'
 
+import Header from './components/header/Header';
 import RouterSwitch from './components/router/RouterSwitch'
 
 function App() {

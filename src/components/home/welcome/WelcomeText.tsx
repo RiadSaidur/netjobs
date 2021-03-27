@@ -1,11 +1,11 @@
 import React from 'react'
 
-import '../../css/herotext.css'
+import '../../../css/welcome/welcometext.css'
 
-const HeroText = () => {
+const WelcomeText = () => {
   return (
-    <div className="heroText">
-      <p className="welcome">WELCOME</p>
+    <div className="welcomeText">
+      <p className="welcomeTitle">WELCOME</p>
       <h1 className="title">
         Explore Your <span className="bluetext">Dream Job</span> & Build Up Your Career With <span className="pinktext">net</span>JOBS
       </h1>
@@ -19,4 +19,4 @@ const HeroText = () => {
   )
 }
 
-export default HeroText
+export default WelcomeText

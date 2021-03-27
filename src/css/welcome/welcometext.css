@@ -1,45 +1,44 @@
-.heroText {
+.welcomeText {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.heroText .welcome {
+.welcomeText .welcomeTitle {
   margin-bottom: 1rem;
   padding: .3rem 1rem;
   border-radius: 4px;
   background-color: rgb(54, 54, 54, .28);
 }
 
-.heroText h1 {
+.welcomeText h1 {
   margin-bottom: 1rem;
   font-weight: 700;
 }
 
-.heroText p {
+.welcomeText p {
   margin-bottom: 1rem;
   font-size: 0.875rem;
 }
 
-.heroText h1 .bluetext {
+.welcomeText h1 .bluetext {
   color: #66BFBF;
 }
 
-.heroText h1 .pinktext {
+.welcomeText h1 .pinktext {
   color: #F76B8A;
 }
 
-.heroText .cta {
+.welcomeText .cta {
   padding: .3rem 1rem;
   font-size: 1.125rem;
   color: #66BFBF;
   background-color: rgb(102, 191, 191, .2);
   border-radius: 4px;
-  cursor: pointer;
 }
 
-@media only screen and (min-width: 720px) {
-  .heroText {
+@media only screen and (min-width: 1024px) {
+  .welcomeText {
     margin: 0 4rem 0 0;
     max-width: 380px;
   }

@@ -1,0 +1,21 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing_page_decoration {
+  max-width: 95vw;
+}
+
+@media only screen and (min-width: 720px) {
+  .welcome {
+    margin-top: 2rem;
+    flex-direction: row;
+  }
+
+  .landing_page_decoration {
+    max-width: 30vw;
+  }
+}

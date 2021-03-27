@@ -1,8 +1,9 @@
 import React from 'react'
-import RouterLInks from './router/RouterLInks'
+import HeaderLinks from './HeaderLinks'
 
-import "../css/header.css"
+import "../../css/header.css"
 import { Link } from 'react-router-dom'
+import HeaderUser from './HeaderUser'
 
 const Header = () => {
   return (
@@ -11,7 +12,8 @@ const Header = () => {
           <span>net</span>
           <span>jobs</span>
       </Link>
-      <RouterLInks />
+      <HeaderLinks />
+      <HeaderUser />
     </header>
   )
 }
