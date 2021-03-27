@@ -1,0 +1,50 @@
+.specialListItem {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+.specialListItem > img {
+  align-self: center;
+  border: 15px solid white;
+  border-radius: 50%;
+}
+
+.specialListItem h3 {
+  margin-top: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.specialListItem p {
+  margin-top: .875rem;
+  display: flex;
+  align-items: center;
+}
+
+.specialListItem p img {
+  margin-right: .5rem;
+}
+
+.specialListItem .side-by-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.specialListItem .side-by-side:last-child {
+  margin-top: 2rem;
+}
+
+.specialListItem .side-by-side:last-child p {
+  margin: 0;
+}
+
+.specialListItem button {
+  padding: 0 .3rem;
+  color: #66BFBF;
+  border: 1px solid #66BFBF;
+  border-radius: 3px;
+  font-size: 0.875rem;
+}
