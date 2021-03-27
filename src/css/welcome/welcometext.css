@@ -4,22 +4,8 @@
   align-items: flex-start;
 }
 
-.welcomeText h1 {
-  margin-bottom: 1rem;
-  font-weight: 700;
-}
-
 .welcomeText p {
   margin-bottom: 1rem;
-  font-size: 0.875rem;
-}
-
-.welcomeText h1 .bluetext {
-  color: #66BFBF;
-}
-
-.welcomeText h1 .pinktext {
-  color: #F76B8A;
 }
 
 .welcomeText .cta {
