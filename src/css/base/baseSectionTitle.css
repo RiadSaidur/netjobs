@@ -1,0 +1,8 @@
+.baseSectionTitle{
+  margin-bottom: 1rem;
+  padding: .3rem 1rem;
+  border-radius: 4px;
+  background-color: rgb(54, 54, 54, .28);
+  text-transform: uppercase;
+  max-width: fit-content;
+}

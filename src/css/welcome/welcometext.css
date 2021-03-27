@@ -4,13 +4,6 @@
   align-items: flex-start;
 }
 
-.welcomeText .welcomeTitle {
-  margin-bottom: 1rem;
-  padding: .3rem 1rem;
-  border-radius: 4px;
-  background-color: rgb(54, 54, 54, .28);
-}
-
 .welcomeText h1 {
   margin-bottom: 1rem;
   font-weight: 700;

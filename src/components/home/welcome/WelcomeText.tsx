@@ -1,11 +1,12 @@
 import React from 'react'
 
 import '../../../css/welcome/welcometext.css'
+import BaseSectionTitle from '../../base/BaseSectionTitle'
 
 const WelcomeText = () => {
   return (
     <div className="welcomeText">
-      <p className="welcomeTitle">WELCOME</p>
+      <BaseSectionTitle title="welcome" />
       <h1 className="title">
         Explore Your <span className="bluetext">Dream Job</span> & Build Up Your Career With <span className="pinktext">net</span>JOBS
       </h1>
