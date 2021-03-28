@@ -24,17 +24,14 @@ const WelcomeText: React.FC <Props> = ({ content, flexColumn }) => {
   return (
     <div className={`welcomeText ${flexColumn ? 'wide' : ''}`}>
       <BaseSectionTitle title={content.title} />
-      <h1 className="title" dangerouslySetInnerHTML={{ __html: content.heading }}>
-      </h1>
+      <h1 className="title" dangerouslySetInnerHTML={{ __html: content.heading }} />
       { content.paragraph && (
         <p>
           { content.paragraph }
         </p>
       )}
       { content.button.haveCTA && (
-        <button className="cta">
-          { content.button.buttonText }
-        </button>
+        <button className="cta" dangerouslySetInnerHTML={{ __html: content.button.buttonText || '' }} />
       )}
     </div>
   )
