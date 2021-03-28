@@ -5,6 +5,7 @@ import './css/app.css'
 
 import Header from './components/header/Header';
 import RouterSwitch from './components/router/RouterSwitch'
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <RouterSwitch />
+        <Footer />
       </BrowserRouter>
     </div>
   );

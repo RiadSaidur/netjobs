@@ -1,0 +1,19 @@
+.footer {
+  background-color: #EAF6F6;
+}
+
+.footer .logo {
+  font-family: 'Miriam Libre', sans-serif;
+  font-size: 2rem;
+}
+
+.footer .logo span:last-child {
+  color: #F76B8A;
+  font-weight: 800;
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer {
+    padding: 0 10rem;
+  }
+}
