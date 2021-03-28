@@ -4,15 +4,26 @@
 
 .special section {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .special .option {
-  align-self: flex-end;
   padding: .3rem 1rem;
   font-size: 1rem;
   color: #66BFBF;
   border-radius: 4px;
   background-color: rgb(102, 191, 191, 0.3);
+}
+
+@media only screen and (min-width: 720px) {
+  .special section {
+    align-items: initial;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  
+  .special .option {
+    align-self: flex-end;
+  }
 }
