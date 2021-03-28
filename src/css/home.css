@@ -14,3 +14,9 @@
 .home .pinktext {
   color: #F76B8A;
 }
+
+@media only screen and (min-width: 1024px) {
+  .home {
+    padding: 0 10rem;
+  }
+}
