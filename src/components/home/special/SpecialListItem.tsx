@@ -18,7 +18,9 @@ interface Props {
 const SpecialListItem: React.FC <Props> = ({ job }) => {
   return (
     <li className='specialListItem'>
-      <img src={require(`../../../assets/icons_${job.icon}.png`).default} alt="job.icon"/>
+      <div className="icon-container">
+        <img src={require(`../../../assets/icons_${job.icon}.png`).default} alt="job.icon"/>
+      </div>
       <h3>
         { job.title }
       </h3>

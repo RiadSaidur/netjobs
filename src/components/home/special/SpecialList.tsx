@@ -37,6 +37,22 @@ const jobs = [
     location: 'San Diago',
     salary: '110,000'
   },
+  {
+    icon: 'uber',
+    title: 'Sr. Web Developer',
+    company: 'Uber',
+    hours: 'Full Time',
+    location: 'San Diago',
+    salary: '110,000'
+  },
+  {
+    icon: 'uber',
+    title: 'Sr. Web Developer',
+    company: 'Uber',
+    hours: 'Full Time',
+    location: 'San Diago',
+    salary: '110,000'
+  },
 ]
 
 const SpecialList = () => {

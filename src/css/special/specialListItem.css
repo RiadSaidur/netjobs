@@ -1,13 +1,28 @@
 .specialListItem {
+  margin-right: 1rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  background-color: aliceblue;
+  background-color: #EAF6F6;
+  min-width: 200px;
+  min-height: 270px;
 }
 
-.specialListItem > img {
+.specialListItem:hover {
+  background: linear-gradient(147.38deg, #66BFBF 0%, #55ACEE 100%);
+  cursor: pointer;
+}
+
+.specialListItem:last-child {
+  margin-right: 0;
+}
+
+.specialListItem .icon-container {
   align-self: center;
+  display: flex;
+  align-items: center;
+  background-color: #EAF6F6;
   border: 15px solid white;
   border-radius: 50%;
 }
@@ -47,4 +62,9 @@
   border: 1px solid #66BFBF;
   border-radius: 3px;
   font-size: 0.875rem;
+}
+
+.specialListItem:hover button {
+  color: rgb(54,54,54,1);
+  border: 1px solid rgb(54,54,54,1);
 }

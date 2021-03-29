@@ -1,6 +1,22 @@
 .specialList {
-  margin-top: 2rem;
+  margin: 2rem 0;
+  padding: .5rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.specialList::-webkit-scrollbar {
+  height: 6px;
+}
+.specialList::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.specialList::-webkit-scrollbar-thumb {
+  background: #EAF6F6;
+}
+.specialList::-webkit-scrollbar-thumb:hover {
+  background: #66BFBF;
 }
