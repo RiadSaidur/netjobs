@@ -1,8 +1,10 @@
 import React from 'react'
 
+import '../../css/footer/footerConatct.css'
+
 const FooterContact = () => {
   return (
-    <div>
+    <div className='footerConatct'>
       <h3>Contact Us</h3>
       <ul>
         <li>

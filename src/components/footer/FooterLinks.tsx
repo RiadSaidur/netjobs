@@ -1,5 +1,7 @@
 import React from 'react'
 
+import '../../css/footer/footerLinks.css'
+
 interface Link {
   to: string;
   title: string;
@@ -12,7 +14,7 @@ interface Props {
 
 const FooterLinks: React.FC <Props> = ({ heading, links }) => {
   return (
-    <div>
+    <div className='footerLinks'>
       <h3>{ heading }</h3>
       <ul>
         { links.map((link, idx) => (

@@ -1,4 +1,9 @@
 .footer {
+  margin-top: 2rem;
+  padding: 2rem .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   background-color: #EAF6F6;
 }
 
@@ -12,8 +17,19 @@
   font-weight: 800;
 }
 
-@media only screen and (min-width: 1024px) {
+.footer h3 {
+  margin: 1rem 0;
+}
+
+.footer .footerLinks-container {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 720px) {
   .footer {
-    padding: 0 10rem;
+    padding: 2rem 10rem;
+    flex-direction: row;
   }
 }

@@ -1,0 +1,19 @@
+.footerConatct {
+  flex: 1;
+}
+
+.footerConatct li {
+  padding: .5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.footerConatct img {
+  margin-right: .5rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .footerConatct {
+    padding-left: 1rem;
+  } 
+}

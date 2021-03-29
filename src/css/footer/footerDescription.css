@@ -1,0 +1,19 @@
+.footerDescription {
+  flex: 1;
+}
+
+.footerDescription ul {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.footerDescription li {
+  margin-right: 1rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .footerDescription {
+    padding-right: 1rem;
+  } 
+}

@@ -1,0 +1,13 @@
+.footerLinks {
+  flex: 1;
+}
+
+.footerLinks li {
+  padding: .2rem 0;
+}
+
+@media only screen and (min-width: 720px) {
+  .footerDescription {
+    padding: 0 1rem;
+  } 
+}

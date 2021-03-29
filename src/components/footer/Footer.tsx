@@ -53,8 +53,10 @@ const Footer = () => {
   return (
     <div className='footer'>
       <FooterDescription />
-      <FooterLinks heading={about.heading} links={about.links} />
-      <FooterLinks heading={contact.heading} links={contact.links} />
+      <div className="footerLinks-container">
+        <FooterLinks heading={about.heading} links={about.links} />
+        <FooterLinks heading={contact.heading} links={contact.links} />
+      </div>
       <FooterContact />
     </div>
   )
