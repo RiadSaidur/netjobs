@@ -9,19 +9,19 @@ const about = {
   heading: 'About',
   links: [
     {
-      to: '/company',
+      to: '#',
       title: 'Company'
     },
     {
-      to: '/groups',
+      to: '#',
       title: 'Groups'
     },
     {
-      to: '/contribution',
+      to: '#',
       title: 'Contribution'
     },
     {
-      to: '/features',
+      to: '#',
       title: 'Features'
     }
   ]
@@ -31,19 +31,19 @@ const contact = {
   heading: 'Contact',
   links: [
     {
-      to: '/about',
+      to: '#',
       title: 'About Us'
     },
     {
-      to: '/contact',
+      to: '#',
       title: 'Contact Us'
     },
     {
-      to: '/news',
+      to: '#',
       title: 'News & Blogs'
     },
     {
-      to: '/other',
+      to: '#',
       title: 'Other Works'
     }
   ]
